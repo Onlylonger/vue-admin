@@ -1,0 +1,11 @@
+# 目录类
+node_modules
+bin
+
+# 隐藏文件类
+.DS_Store
+
+
+
+
+
