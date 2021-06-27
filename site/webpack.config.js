@@ -11,7 +11,7 @@ const config = {
   entry: path.resolve(__dirname, "./src/main.js"),
   devtool: !isProd && "eval-source-map",
   output: {
-    path: path.resolve(__dirname, "../dist-site"),
+    path: path.resolve(__dirname, "../docs"),
     publicPath: "/",
   },
   module: {
