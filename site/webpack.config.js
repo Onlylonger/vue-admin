@@ -12,7 +12,7 @@ const config = {
   devtool: !isProd && "eval-source-map",
   output: {
     path: path.resolve(__dirname, "../docs"),
-    publicPath: "/vue-admin",
+    publicPath: isProd ? "/vue-admin" : "/",
   },
   module: {
     rules: [

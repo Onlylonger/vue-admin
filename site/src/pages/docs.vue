@@ -1,6 +1,7 @@
 <template>
   <layout>
-    docs
+    docsaa
+    <w-button>nihao</w-button>
   </layout>
 </template>
 
